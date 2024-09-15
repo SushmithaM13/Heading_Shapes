@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heading with Shapes</title>
+     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            text-align: center;
+        }
+        
+        .heading {
+            font-size: 30px;
+            color: red;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .shapes {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px solid black;
+            margin-bottom: 0px;
+        }
+        
+        .square {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+        }
+        
+     </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Heading</h1>
+        <div class="shapes">
+            <div class="circle"></div>
+            <div class="square"></div>
+        </div>
+    </div>
+</body>
+</html>
